@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Hanol_Trial";
+  src: url(./../font/Hanol_Trial-LightDisplay.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #13000c;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1328px;
+  margin: auto;
+}
+.title-h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 31px;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 58px;
+}
+
+.head {
+  height: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./../img/head-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head__title {
+  font-family: "Hanol_Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 57px;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -54px;
+}
+.header__link {
+  font-family: "Hanol_Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 27px;
+  color: #ffffff;
+  padding: 40px 70px;
+  background: #2e001d;
+  transition: all 0.3s;
+}
+.header__link:hover {
+  background-color: #4e0032;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 150px;
+}
+.tab__item {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 34px;
+  background: #2e001d;
+}
+.tab__item:hover > .tab__img > img {
+  width: 110%;
+  height: 110%;
+}
+.tab__img {
+  width: 400px;
+  height: 221px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab__img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.tab__desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.step {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  align-items: flex-start;
+}
+.step__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.step__title {
+  font-family: "Hanol_Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: center;
+}
+.step__subtitle {
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+}
+.step__desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-top: 65px;
+}
+.footer__copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.desc {
+  max-width: 900px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
